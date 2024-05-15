@@ -1,0 +1,34 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: local('Futura PT Book'), local('Futura PT Book');
+  src: url('../font/Futura PT Book.eot');
+  src: url('../font/Futura PT Book.eot?#iefix') format('embedded-opentype'),
+    url('../font/Futura PT Book.woff2') format('woff2'),
+    url('../font/Futura PT Book.woff') format('woff'),
+    url('../font/Futura PT Book.ttf') format('truetype'),
+    url('../font/Futura PT Book.svg#Futura PT Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Medium';
+  src: local('Futura PT Medium'), local('Futura PT Medium');
+  src: url('../font/Futura PT Medium.eot');
+  src: url('../font/Futura PT Medium.eot?#iefix') format('embedded-opentype'),
+    url('../font/Futura PT Medium.woff2') format('woff2'),
+    url('../font/Futura PT Medium.woff') format('woff'),
+    url('../font/Futura PT Medium.ttf') format('truetype'),
+    url('../font/Futura PT Medium.svg#Futura PT Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+

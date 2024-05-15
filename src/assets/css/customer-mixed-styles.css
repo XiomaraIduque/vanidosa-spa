@@ -1,0 +1,152 @@
+.container_login{
+  margin-top: 100px !important;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px  20px 50px !important;
+}/*De aqui hacia rriba agregre*/
+
+.content-form {
+  width: 450px;
+  height: 400px; /*modifique esto y el de arriba */
+  border-radius: 5px;
+  padding: 1em;
+  background-color: #ffffff;
+
+}
+
+.input_login{
+  color: rgb(109, 84, 84);
+  border: none;
+  border-bottom: 1px solid #c0c0c0;
+  /* max-width: 320px; */
+  width: 100%;
+  outline: none;
+  line-height: 35px; /*Agrege esto para centrar el esto*/
+}
+
+.login {
+  border: 2px solid #0000002a;
+  padding: 10px;
+}
+
+/* Estilos de el login */
+
+.title-login {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input-inicio {
+  line-height: 50px;
+  margin-bottom: 25px;
+  padding: 1.2em;
+}
+
+form {
+  padding-top: 25px;
+}
+
+.campo_invalido {
+  background-color: #FFCCCC;
+  /* Cambiar el color de fondo a rojo */
+  border-color: red;
+  /* Cambiar el borde a rojo para mayor énfasis */
+}
+
+.error-message {
+  position: absolute;
+  color: rgb(196, 0, 0);
+}
+
+
+.form-configurarCuenta {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.bnt-loguear {
+  background-color: #137b93;
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  color: #ffffff;
+  /* padding: 8px 20px; */
+  /* alto, ancho */
+  border: none;
+  text-align: center; 
+  /* line-height: 40px; */
+}
+
+
+/*Estilos del registro */
+
+.input-registro {
+  line-height: 60px;
+  outline: none;
+}
+
+.registroo {
+  text-align: center;
+}
+
+.link-login {
+  /* border: 1px solid; */
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.content-button-login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.register-button {
+  background-color: #137b93;
+  width: 120px !important;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 8px 0px;
+  /* alto, ancho */
+  border: none;
+}
+
+.clean-button {
+  background-color: #d46146;
+  border-radius: 5px;
+  width: 120px !important;
+  color: #ffffff;
+  padding: 8px 0px;
+  /* alto, ancho */
+  border: none;
+  margin-right:20px !important ;
+}
+
+.fecha,
+.tipodni {
+  display: flex;
+  margin-left: 471px;
+}
+
+#tipo-de-documento {
+  margin-bottom: 70px;
+}
+
+.titulo-registro {
+  margin-top: 0px;
+}

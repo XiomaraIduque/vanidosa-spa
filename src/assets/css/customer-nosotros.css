@@ -1,0 +1,101 @@
+.container_nosotros {
+  margin-top: 90px !important;
+}
+
+.container-main {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 90% !important;
+  margin: auto !important;
+}
+
+.wave {
+  margin-top: 30px !important;
+}
+
+.vanidosa-name {
+  width: 90% !important;
+  margin: auto !important;
+  text-align: center !important;
+  margin-bottom: 50px !important;
+}
+
+.content-image-about {
+  width: 50% !important;
+}
+
+.image_about {
+  width: 100% !important;
+  padding: 40px !important;
+}
+
+.container-about {
+  width: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.content-about {
+  padding: 20px 30px !important;
+}
+
+.title-us {
+  text-align: center !important;
+  margin-bottom: 30px !important;
+}
+
+.about-text {
+  text-align: left !important;
+}
+
+
+
+
+
+/* MediaQuery */
+@media only screen and (max-width: 992px) {
+  .container-main {
+    display: flex !important ;
+    flex-direction: column !important;
+  }
+
+  .content-image-about {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .image_about {
+    width: 80% !important;
+  }
+
+  .container-about {
+    width: 100% !important;
+  }
+
+  .element-1 {
+    order: 1 !important;
+  }
+
+  .element-2 {
+    order: 2 !important;
+  }
+
+  .element-3 {
+    order: 4 !important;
+  }
+
+  .element-4 {
+    order: 3 !important;
+  }
+
+  .element-5 {
+    order: 5 !important;
+  }
+
+  .element-6 {
+    order: 6 !important;
+  }
+
+
+}

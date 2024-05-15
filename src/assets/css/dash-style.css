@@ -1,0 +1,68 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Fuentes locales*/
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"), local("open-sans");
+  src: url("../font/OpenSans-Regular.eot");
+  src: url("../font/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/OpenSans-Regular.woff2") format("woff2"),
+    url("../font/OpenSans-Regular.woff") format("woff"),
+    url("../font/OpenSans-Regular.ttf") format("truetype"),
+    url("../font/OpenSans-Regular.svg#OpenSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Ancho de la barra horizontal y vertical*/
+body::-webkit-scrollbar {
+  /* Tamaño del scroll vertical */
+  width: 10px;
+  /* Tamaño del scroll  horizontal */
+  height: 8px;
+}
+
+/* box-shadow y border-radius pista barra scroll */
+body::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+/* Color pista barra scroll activa y hover */
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+/* Color y border-radius de la barra scroll */
+body::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 4px;
+}
+
+/* Color barra scroll hover*/
+body::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Color barra scroll activa */
+body::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.general-button {
+  height: 36px;
+  font-size: 14;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+

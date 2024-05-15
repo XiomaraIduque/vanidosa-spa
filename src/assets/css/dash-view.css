@@ -1,0 +1,536 @@
+.content-view,
+.content-view-list {
+  width: 900px !important;
+}
+
+
+/* --------------------------Media Querys-------------------------- */
+@media only screen and (max-width: 1366px) {
+
+  .content-view,
+  .content-view-list {
+    max-width: 94% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-label-input {
+    margin-bottom: 12px !important;
+    width: 100% !important;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 13px !important;
+  }
+
+  .content-view,
+  .content-view-list {
+    width: 90% !important;
+  }
+
+  div.content-create-search {
+    position: relative !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input.register-button {
+    width: 170px !important;
+    margin-top: 30px !important;
+  }
+
+  /* Invierte el orden del input "Search" */
+  input.box1 {
+    order: 2 !important;
+  }
+
+  div.container-input-search {
+    position: relative !important;
+  }
+
+  /* Invierte el orden del botón "Registrar" */
+  div.box2 {
+    order: 1 !important;
+  }
+
+  input.input-search {
+    position: relative !important;
+    width: 100% !important;
+  }
+
+  img.search-icon {
+    position: relative !important;
+    height: 21px !important;
+    top: 8px !important;
+    right: 14px !important;
+    cursor: pointer !important;
+  }
+
+  div.container-table {
+    position: relative !important;
+    width: 100% !important;
+    min-height: 420px !important;
+  }
+
+  div.container-input-image {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  label.replace-input-image {
+    width: 100% !important;
+  }
+
+  .select-file {
+    display: flex !important;
+    align-items: center !important;
+    width: 150px !important;
+    padding-left: 10px !important;
+    background-color: #e9ecef !important;
+  }
+
+  input.add-button {
+    width: 100% !important;
+  }
+
+  .content-button {
+    width: 100% !important;
+    flex-direction: column;
+  }
+
+  input.cancel-button,
+  input.clean-button,
+  input.submit-button {
+    min-width: 100% !important;
+    margin: 0px 0px 18px 0px !important;
+  }
+
+  div.container-pagination-report {
+    flex-direction: column !important;
+  }
+
+  div.container-pagination {
+    display: flex !important;
+    justify-content: center;
+    width: 100% !important;
+  }
+
+  div.content-generate-report {
+    justify-content: end;
+    width: 100% !important;
+    margin-top: 30px !important;
+  }
+
+  input.report-button {
+    width: 100% !important;
+  }
+}
+
+/* ------------------------Media Querys Fin------------------------ */
+
+.main-title {
+  margin-bottom: 50px !important;
+  text-align: center !important;
+  font-size: 28px !important;
+}
+
+.main-view {
+  width: 100% !important;
+}
+
+/* ----------Estilos contenedor Boton "Registrar o Crear" y "Buscador"----------- */
+.content-create-search {
+  position: relative !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  margin-bottom: 20px !important;
+}
+
+.register-button {
+  position: relative !important;
+  width: 170px !important;
+  background-color: #2263A1 !important;
+}
+
+/* ------Estilos exclusivos para "Listar Roles"------ */
+.content-search {
+  position: relative !important;
+  display: flex !important;
+  justify-content: end;
+  width: 100% !important;
+  margin-bottom: 20px !important;
+}
+
+/* ------Estilos exclusivos para "Listar Roles"------ */
+
+.container-input-search {
+  position: relative !important;
+}
+
+.input-search {
+  position: relative !important;
+  width: 220px !important;
+  height: 36px !important;
+  padding-left: 10px !important;
+  border-radius: 25px !important;
+}
+
+img.search-icon {
+  position: absolute !important;
+  height: 21px !important;
+  top: 8px !important;
+  right: 14px !important;
+  cursor: pointer !important;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* ----------------------Estilos contenedor "Tabla Listar"----------------------- */
+.container-list {
+  position: relative !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+  padding: 26px 20px 22px 20px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #d3d3d3 !important;
+  border-radius: 10px !important;
+}
+
+.container-table {
+  position: relative !important;
+  width: 100% !important;
+  min-height: 360px !important;
+}
+
+.content-table {
+  position: relative !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+}
+
+.main-table {
+  position: relative !important;
+  width: 100% !important;
+  background-color: #ffffff !important;
+}
+
+.th-style {
+  height: 40px !important;
+  padding: 0px 10px !important;
+  vertical-align: middle !important;
+  white-space: nowrap !important;
+  font-size: 15px !important;
+}
+
+.th-actions {
+  width: 120px !important;
+  white-space: normal !important;
+}
+
+.td-style {
+  height: 40px !important;
+  padding: 0px 10px !important;
+  vertical-align: middle !important;
+  white-space: nowrap !important;
+  font-size: 15px !important;
+}
+
+.td-actions {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 120px !important;
+  white-space: normal !important;
+}
+
+.container-icon-action {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.show-permissions {
+  background-color: #ffffff;
+  border: none;
+}
+
+.eye {
+  height: 13px !important;
+  margin-top: 3px !important;
+}
+
+.check_box {
+  height: 18px !important;
+}
+
+.discount {
+  height: 29px;
+}
+
+.edit {
+  height: 18px !important;
+  margin-bottom: 1px !important;
+}
+
+.toggle {
+  height: 15px !important;
+  margin-top: 3px !important;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* --------------------Estilos contenedor "Formulario Crear"--------------------- */
+.container-fields {
+  position: relative !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding: 26px 20px 24px 20px !important;
+  background-color: #ffffff !important;
+  border: 1px solid #d3d3d3 !important;
+  border-radius: 10px !important;
+}
+
+.content-label-input {
+  margin-bottom: 12px !important;
+  width: 32%;
+}
+
+.general-input {
+  height: 38px !important;
+  padding-left: 10px !important;
+  border: 1px solid #ced4da !important;
+}
+
+.content-observations {
+  width: 100% !important;
+}
+
+.label-description {
+  width: 100% !important;
+}
+
+.observations {
+  width: 100% !important;
+  height: 76px !important;
+  padding: 8px !important;
+}
+
+/* Estilos "Input tipo file" personalizado */
+.container-input-image {
+  width: 100% !important;
+  margin-bottom: 12px !important;
+}
+
+.label-image {
+  width: 100% !important;
+}
+
+.input-image {
+  display: none !important;
+}
+
+.replace-input-image {
+  display: flex !important;
+  width: 375px !important;
+  height: 38px !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 4px !important;
+}
+
+.select-file {
+  display: flex !important;
+  align-items: center !important;
+  width: 150px !important;
+  padding-left: 10px !important;
+  background-color: #e9ecef !important;
+}
+
+.select-file:hover {
+  background-color: #DDE0E3 !important;
+}
+
+.any-file {
+  display: flex !important;
+  align-items: center !important;
+  width: 212px !important;
+  margin-right: 10px !important;
+  padding: 0px 10px !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* ------------------Estilos contenedor "Tabla" Items agregados------------------ */
+.add-button {
+  width: 150px !important;
+  background-color: #273746 !important;
+}
+
+.container-table-item {
+  width: 100% !important;
+}
+
+.container-delete-icon {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.delete-button {
+  text-align: center !important;
+  border: none !important;
+  background-color: #ffffff !important;
+}
+
+.delete-icon {
+  width: 18px !important;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* ----------Estilos contenedor "Paginación" y Botón "Generar reporte"----------- */
+.container-pagination-report {
+  position: absolute !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: end !important;
+  width: 100% !important;
+  bottom: 0px !important;
+}
+
+/* ------Estilos exclusivos para "Listar Roles"------ */
+.container-report {
+  position: absolute !important;
+  display: flex !important;
+  justify-content: end !important;
+  width: 100% !important;
+  left: 0px !important;
+  bottom: 0px !important;
+}
+
+/* ------Estilos exclusivos para "Listar Roles"------ */
+
+.container-pagination {
+  position: relative !important;
+}
+
+.content-pagination {
+  border: 1px solid #dee2e6 !important;
+  border-radius: 4px !important;
+}
+
+.item-pagination {
+  height: 34px !important;
+  padding: 0px 12px !important;
+  color: #0d6efd !important;
+  background-color: #ffffff !important;
+  border-top: 0px solid #dee2e6 !important;
+  border-bottom: 0px solid #dee2e6 !important;
+  border-left: 1px solid #dee2e6 !important;
+  border-right: 0px solid #dee2e6 !important;
+}
+
+.item-pagination:hover {
+  background-color: #E9ECEF !important;
+}
+
+.item-pagination.active {
+  background-color: #e4e4e4 !important;
+  color: #0d6efd !important;
+}
+
+
+.arrow-right-icon {
+  height: 10px !important;
+}
+
+.content-generate-report {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.label-report {
+  margin-right: 10px !important;
+  vertical-align: middle !important;
+}
+
+.report-button {
+  width: 150px !important;
+  background-color: #273746 !important;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* ---------------Estilos contenedor de botones inferiores (Crear)--------------- */
+.container-button {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 25px !important;
+}
+
+.content-button {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.cancel-button {
+  width: 150px !important;
+  margin: 0px 10px !important;
+  background-color: #6c757d !important;
+}
+
+.clean-button {
+  width: 150px !important;
+  margin: 0px 10px !important;
+  background-color: #d46146 !important;
+}
+
+.submit-button {
+  width: 150px !important;
+  margin: 0px 10px !important;
+  background-color: #2263A1 !important;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+
+.button-create {
+  margin: 0px 8px !important;
+  width: 120px !important;
+}
+
+.search-icon-create {
+  height: 21px;
+  cursor: pointer;
+}
+
+.descripcion {
+  width: 300px !important;
+  white-space: normal !important;
+}
+
+.td-user {
+  white-space: nowrap;
+  height: 40px;
+  vertical-align: middle;
+  padding: 0px 8px 0px 8px;
+}
+
+.td-descripcion {
+  width: 300px !important;
+  white-space: normal !important;
+}
+
+.ver-button {
+  background-color: #f9f9f9;
+  border: none;
+}

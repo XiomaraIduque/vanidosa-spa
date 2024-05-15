@@ -1,0 +1,57 @@
+.content-registration-form {
+    width: 100%;
+    height: calc(100vh - 171px);
+}
+
+.registration-form {
+    width: 400px;
+    padding-top: 400px;
+}
+
+
+.access-input {
+    border: none;
+    border-bottom: 1px solid #bfbfbf;
+    line-height: 45px;
+    border-radius: 0;
+    margin-top: 6px;
+}
+
+.access-input:focus {
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.select {
+    color: #6c757d;
+}
+
+/* p {
+    text-align: start;
+} */
+
+.boton-registro {
+    padding-bottom: 50px;
+}
+
+.register-edict {
+    background-color: #137b93;
+    width: 120px !important;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 8px 0px;
+    /* alto, ancho */
+    border: none;
+  }
+
+.clear-cancelar {
+    background-color: #d46146;
+    border-radius: 5px;
+    width: 120px !important;
+    color: #ffffff;
+    padding: 8px 0px;
+    /* alto, ancho */
+    border: none;
+    margin-right:20px !important ;
+  }

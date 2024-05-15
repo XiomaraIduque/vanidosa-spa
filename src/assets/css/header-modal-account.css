@@ -1,0 +1,88 @@
+.container-modal-account {
+  position: absolute !important;
+  top: 80px !important;
+  right: 25px !important;
+  width: 260px !important;
+  box-shadow: 0px 4px 14px #36363633 !important;
+  border-radius: 5px !important;
+  background-color: #ffffff !important;
+  z-index: 1;
+}
+
+.content-modal-account {
+  width: 220px !important;
+  margin: auto !important;
+}
+
+/* ------------------Container User Info------------------- */
+.container-user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  padding-bottom: 15px !important;
+  width: 220px !important;
+  height: 180px;
+  border-bottom: 1px solid #b3b3b3 !important;
+
+}
+
+.image-modal-account {
+  height: 70px !important;
+  width: 70px !important;
+  margin: 20px 0px !important;
+}
+
+.name-modal {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.email-modal {
+  font-size: 14px !important;
+}
+
+/* --------------Container Items Modal Account-------------- */
+.container-item-modal-account {
+  padding: 10px 0px !important;
+  border-bottom: 1px solid #b3b3b3 !important;
+}
+
+.content-item-modal-account {
+  display: flex !important;
+  width: 100% !important;
+  padding: 8px  !important;
+}
+
+.content-item-modal-account:hover {
+  background-color: #eff0f4 !important;
+}
+
+.modal-account-icon {
+  height: 18px !important;
+  margin-right: 10px !important;
+}
+
+.modal-account-link {
+  display: block !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  color: #000000 !important;
+}
+
+/* ----------------Container Link Apk Customer---------------- */
+.modal-account-icon-apk {
+  width: 36px !important;
+  margin-bottom: 4px !important;
+  margin-left: 8px !important;
+}
+
+/* -------------------Container Close Button------------------- */
+.close-button {
+  width: 100% !important;
+  height: 34px !important;
+  margin: 12px 0px !important;
+  font-size: 14px !important;
+  color: #ffffff !important;
+  background-color: #ad0065 !important;
+  border: none !important;
+}

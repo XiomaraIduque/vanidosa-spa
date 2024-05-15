@@ -1,0 +1,182 @@
+/*------------------------Main------------------------*/
+.root-customer {
+  background-color: #ffffff !important;
+}
+
+.main-customer {
+  width: 100% !important;
+  margin-top: 90px !important;
+}
+
+.container-main-customer {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.image-main {
+  width: 100% !important;
+}
+
+.image-main-two {
+  width: 100% !important;
+  display: none !important;
+}
+
+.container-btn-main {
+  position: absolute !important;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.btn-main {
+  font-family: 'Futura PT Book';
+  width: 198px !important;
+  padding: 10px 0px !important;
+  margin: 0px 10px !important;
+  font-size: 18px !important;
+  text-align: center !important;
+  color: #ffffffff !important;
+  text-decoration: none !important;
+  background-color: #ce0078aa !important;
+  transition: 0.2s !important;
+  z-index: 2 !important;
+}
+
+.btn-main:hover {
+  background-color: #e00083dd;
+  color: #ffffff !important;
+}
+
+.section-customer {
+  width: 80% !important;
+  margin: auto !important;
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+}
+
+.section-customer-title {
+  font-family: 'Futura PT Book';
+  margin-bottom: 30px !important;
+  font-size: 2.5em !important;
+  color: #3d3d3d !important;
+  text-align: center !important;
+  letter-spacing: 0.3px !important;
+}
+
+.section-customer-text {
+  font-family: 'Futura PT Book';
+  font-size: 1.875em !important;
+  color: #3d3d3d;
+  text-align: center !important;
+  letter-spacing: 0.3px !important;
+}
+
+.section-customer-image {
+  width: 1366px !important;
+  margin: auto !important;
+  margin-bottom: 60px !important;
+}
+
+.content-image-secondary-customer {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  width: 100% !important;
+}
+
+.image-secondary-customer {
+  width: 620px !important;
+  padding: 20px !important;
+}
+
+.Link-whatsapp {
+  position: fixed !important;
+  width: 52px !important;
+  height: 52px !important;
+  right: 20px !important;
+  bottom: 20px !important;
+  background-color: #ffffff !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  z-index: 1 !important;
+}
+
+/* -------------------Media Querys------------------- */
+@media only screen and (max-width: 1366px) {
+  .section-customer-title {
+    font-size: 2.25em !important;
+  }
+
+  .section-customer-text {
+    font-size: 1.625em !important;
+  }
+
+  .section-customer-image {
+    width: 94% !important;
+  }
+
+  .image-secondary-customer {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-main-customer {
+    align-items: end !important;
+  }
+
+  .container-btn-main {
+    margin-bottom: 30px !important;
+  }
+
+  .image-secondary-customer {
+    padding: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image-main {
+    display: none !important;
+  }
+
+  .image-main-two {
+    display: block !important;
+  }
+
+  .btn-main:last-child {
+    display: none;
+  }
+
+  .section-customer {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .section-customer-title {
+    font-size: 2em !important;
+    margin-bottom: 20px !important;
+  }
+
+  .section-customer-text {
+    font-size: 1.5em !important;
+  }
+
+  .image-secondary-customer {
+    width: 85% !important;
+  }
+
+  .image-secondary-customer:last-child {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .image-secondary-customer {
+    padding: 6px !important;
+  }
+}
+
+/* -------------------------------------------------- */

@@ -1,0 +1,89 @@
+.container_agendar {
+    margin-top: 100px !important;
+}
+
+.cuadro_citas {
+    border: solid #e2dddd !important;
+    text-align: center !important;
+    margin: 3em auto !important;
+    max-width: 35em !important;
+    width: 100% !important;
+    padding: 1em !important;
+}
+
+.boton-citas {
+    margin-top: 20px !important;
+}
+
+.content_registar {
+    padding: 10px !important;
+}
+
+.bnt-loguear {
+    background-color: #137b93;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.content_agregar {
+    padding: 10px !important;
+}
+
+.bnt-agregar {
+    background-color: #273746;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.btn_eliminar {
+    background-color: #d46146;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+.input_agendar {
+    height: 40px;
+    color: #6d5454 !important;
+    border: none;
+    border-bottom: 1px solid #F1F3F5;
+    border-radius: 5px;
+    /* max-width: 320px; */
+    width: 95%;
+    padding: 10px;
+    outline: none;
+    line-height: 35px;
+    margin-top: 5px !important;
+}
+
+.input_select {
+    padding: 0px 10px;
+}
+
+.custom-select {
+    width: 100%;
+    /* Set the desired width */
+}
+
+.main-table-cita {
+    position: relative !important;
+    width: 95% !important;
+    background-color: #ffffff !important;
+}
