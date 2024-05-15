@@ -1,2 +1,3 @@
-## Haz una visita a mi plataforma en la red
-https://xiomaraiduque.github.io/vanidosa-spa/
+# Haz una visita a mi plataforma en la web
+ ### _Proyecto de tecnología_
+- https://xiomaraiduque.github.io/vanidosa-spa/
